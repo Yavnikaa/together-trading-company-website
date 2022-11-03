@@ -142,7 +142,7 @@ const IndexPage = () => {
       </div>
 
       <div className={containerStyles.footer}>
-        <div> <img src={quotes} alt="quotes"></img> </div>
+        <div className={containerStyles.footerQuote}> <img src={quotes} alt="quotes"></img> </div>
         <div className={containerStyles.footerSection}> 
           <div> 
             <div className={containerStyles.footerText}> We are committed to excellence, high quality and assurance, while catering to your requirements and protecting the environment. Being in this line of business for the last 30 years, we offer fulfilling products at best possible prices. </div>
